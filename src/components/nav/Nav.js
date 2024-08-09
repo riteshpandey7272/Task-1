@@ -45,7 +45,7 @@ const Nav = ({ onNavigate }) => {
                 Home
               </Link>
             </li>
-            
+
             <li className="nav-item dropdown">
               <Link
                 className="nav-link dropdown-toggle"
@@ -64,21 +64,21 @@ const Nav = ({ onNavigate }) => {
                   to="/option1"
                   onClick={closeNavbar}
                 >
-                  Option 1
+                  Item 1
                 </Link>
                 <Link
                   className="dropdown-item"
                   to="/option2"
                   onClick={closeNavbar}
                 >
-                  Option 2
+                  Item 2
                 </Link>
                 <Link
                   className="dropdown-item"
                   to="/option3"
                   onClick={closeNavbar}
                 >
-                  Option 3
+                  Item 3
                 </Link>
               </div>
             </li>
@@ -101,21 +101,21 @@ const Nav = ({ onNavigate }) => {
                   to="/option4"
                   onClick={closeNavbar}
                 >
-                  Option 4
+                  Item 4
                 </Link>
                 <Link
                   className="dropdown-item"
                   to="/option5"
                   onClick={closeNavbar}
                 >
-                  Option 5
+                  Item 5
                 </Link>
                 <Link
                   className="dropdown-item"
                   to="/option6"
                   onClick={closeNavbar}
                 >
-                  Option 6
+                  Item 6
                 </Link>
               </div>
             </li>
